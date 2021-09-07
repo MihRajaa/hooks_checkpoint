@@ -14,6 +14,8 @@ body {
   text-align: center;
 }
 
+
+
 .header-container {
   color: white;
   background: darkred;
@@ -66,7 +68,7 @@ body {
 
 .movie-card > h3,
 .movie-card > p {
-  color: black;
+  color: rgb(210, 207, 223);
   padding: 0.5rem;
 }
 
@@ -101,7 +103,7 @@ form > label {
   margin: 15px;
   cursor: pointer;
   border-radius: 4px;
-  background: red;
+  background: rgb(255, 255, 255);
   width: 100px;
   border: 0.5px solid rgba(0, 0, 0, 0.37);
   padding: 0.5rem 1rem;
@@ -125,7 +127,7 @@ form > label {
   left: 0;
 }
 
-/*Annimations */
+/*Animations */
 
 .fade-out {
   animation: fadeOut ease 2s;
